@@ -76,7 +76,7 @@ public class Main extends ListenerAdapter {
 
     @Override
     public void onMessageReceived(MessageReceivedEvent event) {
-        //Server message
+        //Server message here
         System.out.println("Received a message from " +
                 event.getAuthor().getName() + ": " +
                 event.getMessage().getContentDisplay()
